@@ -55,10 +55,12 @@ aside {
     font-size: medium;
 }
 
+
 .lista-menu {
     position: relative;
-    top: 10%;
+    top: 5%;
 }
+
 .lista-menu>li:hover {
     background:linear-gradient(to bottom, #46a7f5 5%, #86c6f8 100%);
     cursor: pointer;
@@ -66,8 +68,6 @@ aside {
 a {
     color: #837E9F; 
 }
-
-
 
 .badges {
     background-color: #302F3D;
@@ -187,3 +187,38 @@ main {
     box-shadow: 4px 2px #000000;
      
 }
+
+@media (max-width: 700px) {
+    aside {
+        width: 39%;
+    }
+    .profile {
+        height: 36%;
+    }
+
+    .profile-img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .menu {
+        height: 40%;
+        font-size: small;
+        margin-bottom: 5px;
+    }
+    
+    .badges {
+        height: 40%;
+    }
+
+   .badges>.lista-badge{
+    position: relative;
+    top: -3%;
+   }
+
+    .container>.career {
+        
+        margin: 3px;
+    }
+}
+
